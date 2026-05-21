@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const weight = calcHuskWeight.value;
             const total = invoiceTotalValue.textContent;
 
-            const text = `*Bhupathi Bhupathi Srinivasarao Lorry Services - Pricing Estimate*%0A%0A` +
+            const text = `*Bhupathi Srinivasarao Lorry Services - Pricing Estimate*%0A%0A` +
                          `*Lease Model:* ${leaseLabel}%0A` +
                          `*Duration/Distance:* ${qty} ${unit}%0A` +
                          `*Vehicle Type:* ${lorryName}%0A` +
@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const weight = document.getElementById('quoteWeight').value;
             const freq = document.getElementById('quoteFrequency').options[document.getElementById('quoteFrequency').selectedIndex].text;
 
-            const text = `*Bhupathi Bhupathi Srinivasarao Lorry Services - Custom Freight Quote Inquiry*%0A%0A` +
+            const text = `*Bhupathi Srinivasarao Lorry Services - Custom Freight Quote Inquiry*%0A%0A` +
                          `*Name:* ${name}%0A` +
                          `*Phone:* ${phone}%0A` +
                          `*Origin:* ${origin}%0A` +
@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             alert(`Thank you, ${corpName}! Your corporate inquiry for ${corpCompany} has been received. Our freight logistics manager will contact you on +91 ${corpPhone} within 15 minutes to propose our bulk commercial tariff plans.`);
 
-            const text = `*Bhupathi Bhupathi Srinivasarao Lorry Services - Bulk Factory Corporate Inquiry*%0A%0A` +
+            const text = `*Bhupathi Srinivasarao Lorry Services - Bulk Factory Corporate Inquiry*%0A%0A` +
                          `*Contact Name:* ${corpName}%0A` +
                          `*Phone:* ${corpPhone}%0A` +
                          `*Company/Factory:* ${corpCompany}%0A` +
